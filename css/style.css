@@ -1,0 +1,97 @@
+/* ----------------------------- NAVBAR ------------------------ */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: #23395d;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    color: rgb(266, 266, 266);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 1.5rem;
+}
+
+/* ------------------------------ GRAPH ------------------------ */
+.axis path, .axis line {
+    fill: none;
+    stroke: #555555;
+    shape-rendering: crispEdges;
+}
+
+.line {
+    fill: none;
+    stroke: #ff745c;
+    stroke-width: 1px;
+}
+
+/* ----------------------------- IMAGES ------------------------- */
+img {
+    object-fit: cover;
+}
+
+#factory{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 25%;
+    height: 25%;
+}
+
+#renewable {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 25%;
+}
+
+/* ------------------------------ HTML -------------------------- */
+#data-container{
+    position: absolute;
+    top: 80;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+td {
+padding: 5px;
+}
+
+th + th {
+padding-left: 20px;
+}
+
+#graph {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}

@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/fce.png"/>
+    <link rel="stylesheet" type="text/css" href='css/style.css' rel="stylesheet">
+    <title>Seminario Porvincia: NEU</title>
+</head>
+<style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+    
+    body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat', sans-serif;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #canvas{
+        background-color: #f5f5f5;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+</style>
+<body>
+
+    <!-- main nav header -->
+    <nav id="nav">
+        <div class="logo">
+            <h4>S.E.P: Bonos de carbono</h4>
+        </div>
+    </nav>
+
+    <!-- canvas -->
+    <canvas id="canvas"></canvas>
+
+    <!-- context images -->
+    <img id="factory" src="images/factory.png" alt="factory">
+    <img id="renewable" src="images/renewable.png" alt="renewable">
+
+    <!-- graph and table -->
+    <div id="data-container">
+        <table id="table">
+            <tr>
+                <th>Co2 (kg)</th>
+                <th>Período</th>
+                <th>Net (kg)</th>
+            </tr>
+            <tr>
+                <td id="tonns">0</td>
+                <td id="periodNumber">0</td>
+                <td id="netted">0</td>
+            </tr>
+        </table>
+
+        <svg id="graph">
+    </div>
+
+</body>
+
+<script src="javascript/d3-v3.js"></script>
+<script src="javascript/controls.js"></script>
+<script src="javascript/index.js"></script>
+<script src="javascript/graph.js"></script>
+
+</html>
