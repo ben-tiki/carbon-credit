@@ -8,8 +8,8 @@ canvas.height = window.innerHeight;
 canvas.width = window.innerWidth;
 
 // ------------------------------------ BALLS -------------------------------------
-var x_pos = 100,
-    y_pos = canvas.height - 225,
+var x_pos = 125,
+    y_pos = canvas.height - 170,
     x_vel = -2.5,
     y_vel = -2.5,
     radius = 5,
