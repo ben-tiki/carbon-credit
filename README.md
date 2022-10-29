@@ -9,6 +9,9 @@ They can be defined as a permit which allows a country or organization to produc
 * If a ball comes in contact with the renewable energy source (lower right corner), it is removed from the atmosphere and "netted"
 * Overall emissions are displayed in the table, and D3 timegraph
 
+https://user-images.githubusercontent.com/101474762/198813699-b0877592-ad98-43d9-83e8-1d6d0dddf3b1.mp4
+---
+
 # How to run
 * Clone the repository
 * Open the index.html file in your browser
