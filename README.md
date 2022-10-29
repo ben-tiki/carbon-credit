@@ -10,7 +10,6 @@ They can be defined as a permit which allows a country or organization to produc
 * Overall emissions are displayed in the table, and D3 timegraph
 
 [carbon.webm](https://user-images.githubusercontent.com/101474762/198813939-defeb7a0-c216-48de-8534-9fdb3e876fd4.webm)
----
 
 # How to run
 * Clone the repository
