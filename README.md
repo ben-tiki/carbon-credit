@@ -18,6 +18,3 @@ They can be defined as a permit which allows a country or organization to produc
 # How to use
 * Load the file in your browser
 * Press "h" key to hide/unhide the renewable energy source
-
-# Conclusions
-* The simulation shows that by investing in renewable energy sources, we can reduce the amount of carbon emissions in the atmosphere
